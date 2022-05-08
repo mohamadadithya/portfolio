@@ -14,7 +14,11 @@
 >
 	<Container classes="md:flex justify-between relative">
 		<header class="flex justify-between items-center">
-			<a href="/" class="font-bold font-satisfy text-3xl hover:text-cheese">Mohamad Adithya</a>
+			<a
+				on:click={() => (isOpen = false)}
+				href="/"
+				class="font-bold font-satisfy text-3xl hover:text-cheese">Mohamad Adithya</a
+			>
 			<button class="md:hidden" on:click={() => (isOpen = !isOpen)}>
 				<svg class="w-10" x="0px" y="0px" viewBox="0 0 50 50">
 					<path
