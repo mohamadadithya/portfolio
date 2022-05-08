@@ -49,7 +49,7 @@
 <MetaTags title="Mohamad Adithya | Contact" description="Mohamad Adithya's contact information" />
 
 <section class="pt-24">
-	<Container classes="h-screen">
+	<Container>
 		<h1 class="text-3xl font-bold mb-8" transition:fade={{ duration: 500 }}>Contact Me</h1>
 		<div
 			in:fly={{ y: 200, duration: 1500 }}
