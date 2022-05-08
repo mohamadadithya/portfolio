@@ -6,7 +6,18 @@
 
 <MetaTags
 	title="Mohamad Adithya"
-	description="Micawber is a Sveltekit boilerplate includes Tailwind CSS, PostCSS, Autoprefixer and Svelte Meta Tags"
+	description="I'm a Front-End Developer with 2+ years of experience. I can
+	implement my skills to make or design a web interface to be interactive and attractive. I can
+	also work in a team."
+	twitter={{
+		handle: '@MohamadAdithya',
+		site: '@MohamadAdithya',
+		cardType: 'summary_large_image',
+		title: 'Twitter',
+		description: `Mohamad Adithya's Twitter`,
+		image: 'https://pbs.twimg.com/profile_images/1522614353207652358/QWsXvO0W_400x400.jpg',
+		imageAlt: `Mohamad Adithya's Twitter photo`
+	}}
 />
 
 <section class="grid h-screen place-items-center">

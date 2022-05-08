@@ -1,5 +1,5 @@
 <script>
-	export let name, placeholder;
+	export let name, placeholder, value;
 </script>
 
 <div class="flex flex-col mb-5">
@@ -10,5 +10,6 @@
 		{placeholder}
 		id={name.toLowerCase()}
 		autocomplete="off"
+		bind:value
 	/>
 </div>

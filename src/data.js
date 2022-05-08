@@ -7,7 +7,8 @@ export const projects = [
         urls: {
             demo: 'https://quranible.netlify.app',
             source_code: 'https://github.com/mohamadadithya/quranible'
-        }
+        },
+        delay: 0
     },
     {
         image: 'isimsiz.png',
@@ -17,7 +18,8 @@ export const projects = [
         urls: {
             demo: 'https://isimsiz.vercel.app',
             source_code: 'https://github.com/mohamadadithya/isimsiz'
-        }
+        },
+        delay: 300
     },
     {
         image: 'hermesery.png',
@@ -26,7 +28,8 @@ export const projects = [
         urls: {
             demo: 'https://hermesery.netlify.app',
             source_code: 'https://github.com/mohamadadithya/hermesery'
-        }
+        },
+        delay: 500
     },
     {
         image: 'tweetrator.png',
@@ -35,7 +38,8 @@ export const projects = [
         urls: {
             demo: 'https://tweetrator.netlify.app',
             source_code: 'https://github.com/mohamadadithya/tweetrator'
-        }
+        },
+        delay: 700
     },
     {
         image: 'incoloriser.png',
@@ -44,7 +48,8 @@ export const projects = [
         urls: {
             demo: 'https://incoloriser.netlify.app',
             source_code: 'https://github.com/mohamadadithya/incoloriser'
-        }
+        },
+        delay: 900
     },
     {
         image: 'pomidor.png',
@@ -53,6 +58,7 @@ export const projects = [
         urls: {
             demo: 'https://pomidorx.netlify.app',
             source_code: 'https://github.com/mohamadadithya/pomidor'
-        }
+        },
+        delay: 1100
     }
 ];

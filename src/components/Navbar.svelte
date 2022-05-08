@@ -10,11 +10,11 @@
 
 <nav
 	transition:fade={{ duration: 600 }}
-	class="py-6 {isOpen || scrollY >= 58 ? 'bg-inherit' : 'bg-transparent'} fixed top-0 w-full z-10"
+	class="py-6 {isOpen || scrollY >= 50 ? 'bg-inherit' : 'bg-transparent'} fixed top-0 w-full z-10"
 >
 	<Container classes="md:flex justify-between relative">
 		<header class="flex justify-between items-center">
-			<a href="/" class="font-bold uppercase text-xl hover:text-cheese">Mohamad Adithya</a>
+			<a href="/" class="font-bold font-satisfy text-3xl hover:text-cheese">Mohamad Adithya</a>
 			<button class="md:hidden" on:click={() => (isOpen = !isOpen)}>
 				<svg class="w-10" x="0px" y="0px" viewBox="0 0 50 50">
 					<path

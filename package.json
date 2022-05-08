@@ -25,6 +25,7 @@
   },
   "type": "module",
   "dependencies": {
+    "notyf": "^3.10.0",
     "svelte-meta-tags": "^2.5.1"
   }
 }

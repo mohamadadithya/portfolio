@@ -8,6 +8,7 @@ module.exports = {
         },
         fontFamily: {
           'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif'],
+          'satisfy': ['Satisfy', 'cursive']
       }
     },
   },
