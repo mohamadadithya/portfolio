@@ -40,13 +40,14 @@
 				: 'hidden'} text-gray-400"
 		>
 			<li class="mr-8 hover:line-through hover:text-cheese mb-10 md:mb-0">
-				<a href="/projects">Projects</a>
+				<a on:click={() => (isOpen = false)} href="/projects">Projects</a>
 			</li>
 			<li class="mr-8 hover:line-through hover:text-cheese mb-10 md:mb-0">
-				<a href="/contact">Contact</a>
+				<a on:click={() => (isOpen = false)} href="/contact">Contact</a>
 			</li>
 			<li class="hover:line-through hover:text-cheese">
 				<a
+					on:click={() => (isOpen = false)}
 					href="https://drive.google.com/file/d/1NuR4jG1DJnwnGslGBDGlCiXVyKUAg53p/view?usp=sharing"
 					target="_blank">Resume</a
 				>
