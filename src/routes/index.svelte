@@ -30,7 +30,7 @@
 			in:fly={{ y: 200, duration: 2000, delay: 300 }}
 			out:fade
 		>
-			Welcome to my portfolio, I'm a Front-End Developer with 2+ years of experience. I can
+			Welcome to my portfolio website, I'm a Front-End Developer with 2+ years of experience. I can
 			implement my skills to make or design a web interface to be interactive and attractive. I can
 			also work in a team.
 		</p>
