@@ -24,10 +24,11 @@
 	<div>
 		<a
 			href={project.urls.source_code}
+			target="_blank"
 			class="bg-cheese px-3 py-2.5 mr-3 inline-block text-black rounded-md transition-transform duration-500 hover:scale-95"
 			><i class="fab fa-fw fa-github mr-1" /> Source Code</a
 		>
-		<a href={project.urls.demo} class="hover:text-cheese"
+		<a href={project.urls.demo} target="_blank" class="hover:text-cheese"
 			><i class="far fa-fw fa-eye mr-1" /> Demo</a
 		>
 	</div>

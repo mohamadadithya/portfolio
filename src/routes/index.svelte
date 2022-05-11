@@ -31,8 +31,8 @@
 			out:fade
 		>
 			Welcome to my portfolio website, I'm a Front-End Developer with 2+ years of experience. I can
-			implement my skills to make or design a web interface to be interactive and attractive. I can
-			also work in a team.
+			implement my skills to make or design a web interface to be interactive, attractive and
+			responsive. I can also work in a team.
 		</p>
 		<a
 			href="/projects"

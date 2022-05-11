@@ -52,7 +52,7 @@
 			<li class="hover:line-through hover:text-cheese">
 				<a
 					on:click={() => (isOpen = false)}
-					href="https://drive.google.com/file/d/1NuR4jG1DJnwnGslGBDGlCiXVyKUAg53p/view?usp=sharing"
+					href="https://drive.google.com/file/d/1awigWeRSYC50yRRKxo7vtxqhpGox1l5y/view?usp=sharing"
 					target="_blank">Resume</a
 				>
 			</li>
