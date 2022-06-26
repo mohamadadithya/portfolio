@@ -49,6 +49,9 @@
 			<li class="mr-8 hover:line-through hover:text-cheese mb-10 md:mb-0">
 				<a on:click={() => (isOpen = false)} href="/contact">Contact</a>
 			</li>
+			<li class="mr-8 hover:line-through hover:text-cheese mb-10 md:mb-0">
+				<a on:click={() => (isOpen = false)} href="/blog">Blog</a>
+			</li>
 			<li class="hover:line-through hover:text-cheese">
 				<a
 					on:click={() => (isOpen = false)}
