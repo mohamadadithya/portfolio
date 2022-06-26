@@ -31,13 +31,22 @@
 				<i class="far fa-fw fa-spin fa-spinner text-3xl" />
 			{/if}
 		</div>
-		<a
-			transition:fade
-			href="https://github.com/mohamadadithya?tab=repositories"
-			target="_blank"
-			class="text-xl hover:text-cheese"
-			>See other projects <i class="far fa-fw fa-chevron-right" /></a
-		>
+		<div transition:fade class="flex flex-col md:flex-row justify-between items-center">
+			<a
+				href="https://github.com/mohamadadithya?tab=repositories"
+				target="_blank"
+				class="text-xl hover:text-cheese"
+				>See more projects <i class="far fa-fw fa-external-link-alt ml-2" /></a
+			>
+			<p class="font-bold my-5 md:my-0 bg-black border-2 border-cheese text-white rounded-full p-2">
+				OR
+			</p>
+			<a
+				href="/contact"
+				class="bg-cheese px-3 py-2 rounded-md text-black block font-bold duration-500 hover:scale-95"
+				>Get in touch <i class="fas fa-fw fa-chevron-right" /></a
+			>
+		</div>
 		{#if showLightBox}
 			<LightBox
 				title={lightBoxTitle}
