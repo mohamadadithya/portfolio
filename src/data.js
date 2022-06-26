@@ -1,5 +1,16 @@
 export const projects = [
     {
+        image: 'theatro.png',
+        name: 'Theatro',
+        description:
+            'Theatro is a website to show information about movies.',
+        urls: {
+            demo: 'https://theatrox.vercel.app',
+            source_code: 'https://github.com/mohamadadithya/theatro'
+        },
+        delay: 0
+    },
+    {
         image: 'quranible.png',
         name: 'Quranible',
         description:
@@ -8,7 +19,7 @@ export const projects = [
             demo: 'https://quranible.netlify.app',
             source_code: 'https://github.com/mohamadadithya/quranible'
         },
-        delay: 0
+        delay: 300
     },
     {
         image: 'isimsiz.png',
@@ -19,18 +30,18 @@ export const projects = [
             demo: 'https://isimsiz.vercel.app',
             source_code: 'https://github.com/mohamadadithya/isimsiz'
         },
-        delay: 300
-    },
-    {
-        image: 'hermesery.png',
-        name: 'Hermesery',
-        description: 'Hermesery is a website to track IPv4 Address.',
-        urls: {
-            demo: 'https://hermesery.netlify.app',
-            source_code: 'https://github.com/mohamadadithya/hermesery'
-        },
         delay: 500
     },
+    // {
+    //     image: 'hermesery.png',
+    //     name: 'Hermesery',
+    //     description: 'Hermesery is a website to track IPv4 Address.',
+    //     urls: {
+    //         demo: 'https://hermesery.netlify.app',
+    //         source_code: 'https://github.com/mohamadadithya/hermesery'
+    //     },
+    //     delay: 700
+    // },
     {
         image: 'tweetrator.png',
         name: 'Tweetrator',
